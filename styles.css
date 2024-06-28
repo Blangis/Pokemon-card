@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: linear-gradient(180deg, #085F63, #49BEB7,   #FACF5A, #FF5959);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+}
+
+
+.card-body-img{
+    width: 50%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;   
+}
+
+.card-footer{
+    display:flex;
+    margin: 0 auto;
+    font-family: "Amita", serif;
+    gap: 10px;
+
+}
+
+.card-footer-social{
+    justify-content: space-between;
+}
