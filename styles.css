@@ -1,16 +1,10 @@
-body{
-    display:flex;
-    align-items: center;
-    height: 100vh;
-
-}
 
 .card-container{
     display:flex;
     justify-content: center;
     align-items:center;
     background: linear-gradient(180deg, #085F63, #49BEB7,   #FACF5A, #FF5959);
-    height: 100%;
+    height: 100vh;
     width: 100%;
     margin: 0;
     text-align: center;
