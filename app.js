@@ -34,6 +34,11 @@ const fetchData = async (id) => {
     }
 }
 
+
+/* clone: Se clona el contenido del template y se asigna a la variable clone. El true asegura que se clone todo el árbol de nodos.
+El contenido dentro de un template solo se renderiza cuando se clona y se inserta en el documento */
+/*  Se crea un DocumentFragment, que es un contenedor ligero y minimalista para manipular el DOM sin impactar el rendimiento.*/
+
 const pintarCard = (pokemon) => {
     console.log(pokemon);
 
