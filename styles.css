@@ -9,10 +9,19 @@
 
 }
 
+span{
+    font-size:smaller;
+    color: grey;
+}
+
 .card{
     width: 20rem;
     height: auto;
     box-shadow: 10px 10px 30px black;
+}
+
+.card-body{
+    text-transform: capitalize;
 }
 
 .card-img-top{
@@ -20,21 +29,26 @@
 }
 
 .card-body-img{
-    width: 50%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     display:flex;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
     border: 3px solid white;
     border-radius: 50%;
-    margin-top: -70px;  
+    margin-top: -75px;  
+    background-color: white;
     
 }
 
 #space{
     margin-bottom: 10px;
     text-align: center;
+}
+
+.btn {
+    margin-top: 15px;
 }
 
 .card-footer{
