@@ -1,1 +1,1 @@
-https://blangis.github.io/Practica/
+Deploy: https://blangis.github.io/Pokemon-card/
